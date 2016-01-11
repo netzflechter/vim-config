@@ -126,6 +126,10 @@
 	path = bundle/powerline
 	url = https://github.com/nviennot/vim-powerline.git
 	ignore = dirty
+[submodule "bundle/vim-railscasts-theme"]
+	path = bundle/vim-railscasts-theme
+	url = https://github.com/netzflechter/vim-railscasts-theme.git
+	ignore = dirty
 [submodule "bundle/ruby"]
 	path = bundle/ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
