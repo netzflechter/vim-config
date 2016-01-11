@@ -18,7 +18,7 @@ if $TERM =~ '256color'
 elseif $TERM =~ '^xterm$'
   set t_Co=256
 endif
-colorscheme molokai
+colorscheme railscasts
 
 " Misc
 filetype plugin indent on       " Do filetype detection and load custom file plugins and indent files
