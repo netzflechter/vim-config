@@ -139,10 +139,10 @@ nnoremap <Down>  3<C-w>+
 nnoremap <Left>  3<C-w><
 nnoremap <Right> 3<C-w>>
 
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-map <C-h> <C-w>h
+map <S-j> <C-w>j
+map <S-k> <C-w>k
+map <S-l> <C-w>l
+map <S-h> <C-w>h
 
 nnoremap _ :split<cr>
 nnoremap \| :vsplit<cr>
@@ -229,7 +229,7 @@ let g:ScreenShellTmuxInitArgs = '-2'
 let g:ScreenShellInitialFocus = 'shell'
 let g:ScreenShellQuitOnVimExit = 0
 
-map <C-\> :ScreenShellVertical<CR>
+map <F5> :ScreenShellVertical<CR>
 
 """""""""""""""""""""""""
 " Ruby Stuff
